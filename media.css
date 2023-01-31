@@ -14,6 +14,10 @@ large screens 1200px
 
 @media screen and (min-width:767px) and (max-width:992px) {
     
+body {
+    background-image: linear-gradient(to top, #49a09d, #5f2c82);
+}
+
 #login {
     width: 80vw;
 }
@@ -32,6 +36,11 @@ large screens 1200px
 }
 
 @media screen and (min-width:992px) {
+    
+    body {
+        background-image: linear-gradient(to top, #49a09d, #5f2c82);
+    }
+    
     #login {
         width: 950px;
     }
