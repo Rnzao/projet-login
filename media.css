@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+/* Devices breakpoints
+
+phones 600px
+
+tablets 768px
+
+desktops 992px
+
+large screens 1200px
+
+*/
+
+@media screen and (min-width:767px) and (max-width:992px) {
+    
+#login {
+    width: 80vw;
+}
+
+#login > #imagem {
+    float: left;
+    width: 30%;
+    height: 100vh;
+}
+
+#login > #formulario {
+    float: right;
+   width: 70%;
+}
+
+}
+
+@media screen and (min-width:992px) {
+    #login {
+        width: 950px;
+    }
+
+    #login > #imagem {
+        float: left;
+        width: 50%;
+        height: 100%;
+    }
+
+    #login > #formulario {
+        float: right;
+        width: 50%;
+    }
+
+}
+
