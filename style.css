@@ -51,3 +51,15 @@ section {
     padding: 10px;
     display: block;
 }
+
+#email {
+    margin-top: 3px;
+}
+
+#senha {
+    margin-top: 10px;
+}
+
+#botoes {
+    margin: 2em;
+}
